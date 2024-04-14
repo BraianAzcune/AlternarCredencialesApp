@@ -54,15 +54,15 @@ partial class Main
         BtnCredencial.UseVisualStyleBackColor = true;
         BtnCredencial.Click += BtnCredenciales_click;
         // 
-        // Form1
+        // Main
         // 
         AutoScaleDimensions = new SizeF(7F, 15F);
         AutoScaleMode = AutoScaleMode.Font;
         ClientSize = new Size(257, 123);
         Controls.Add(BtnCredencial);
         Controls.Add(label1);
-        Name = "Form1";
-        Text = "Form1";
+        Name = "Main";
+        Text = "Alternador GIT";
         Load += Form1_Load;
         ResumeLayout(false);
         PerformLayout();
